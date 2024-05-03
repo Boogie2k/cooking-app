@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "cooking-app",
-    "slug": "cooking-app",
+    "name": "cooks",
+    "slug": "cooks",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cooks.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cooks.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/cooks.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.boogie2k.cooks"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d11bb5c-79f6-4e26-b306-670242123bd0"
+      }
     }
   }
 }
